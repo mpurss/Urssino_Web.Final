@@ -17,7 +17,7 @@ $contraseña = $_POST["contraseña"];
   <a href="../index.php">Volver al inicio</a>
 </body>
 <?php
-$conexion = new mysqli("localhost", "root", "", "contactos");
+$conexion = new mysqli("localhost", "root", "", "usuarios");
 
 if ($conexion->connect_error) {
     die("Error de conexión: " . $conexion->connect_error);
